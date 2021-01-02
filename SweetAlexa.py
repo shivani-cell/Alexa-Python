@@ -50,7 +50,7 @@ def run_alexa():
     elif 'date' in command:
         talk('Ya sure, we can go tomorrow')
     elif 'Are you single' in command:
-        talk('Recently breakup with my new boyfriend')
+        talk('Recently breakup with my 100th boyfriend')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
         #print(pyjokes.get_joke())
